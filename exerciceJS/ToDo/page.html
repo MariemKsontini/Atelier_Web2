@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab</title>
+    <link rel="stylesheet" href="le.css">
+
+    <link rel="stylesheet" href="../bootstrap.css">
+</head>
+<body>
+
+<div class="container" style="margin-top: 50px  ; margin-bottom: 100px  ">
+    <div class="row">
+        <div class="col-5">
+            <table id="tabARemplir" class="table table-info">
+                <thead>
+                <tr>TO DO LIST</tr>
+                </thead>
+            </table>
+        </div>
+
+        <div class="col-6">
+            <div class="container">
+                <label for="name">Name:</label>
+                <input id="name" type="text" value="" > <br>
+                <label for="content">Content</label>
+                <input id="content" type="text" value="">
+            </div>
+
+            <br>
+            <button onclick="addTab()" type="button" class="btn btn-info" >Add ToDo</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
